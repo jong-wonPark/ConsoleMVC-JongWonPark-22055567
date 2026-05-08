@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Models">
+      <UniqueIdentifier>{a1b2c3d4-0001-0001-0001-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repositories">
+      <UniqueIdentifier>{a1b2c3d4-0002-0002-0002-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{a1b2c3d4-0003-0003-0003-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{a1b2c3d4-0004-0004-0004-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{a1b2c3d4-0005-0005-0005-000000000005}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Controllers\AppController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\InventoryController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\OrderController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ProductionController.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Repositories\CustomerRepository.cpp">
+      <Filter>Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="Repositories\InventoryRepository.cpp">
+      <Filter>Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="Repositories\OrderRepository.cpp">
+      <Filter>Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="Repositories\ProductionRepository.cpp">
+      <Filter>Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="Repositories\ProductRepository.cpp">
+      <Filter>Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\InventoryService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\OrderService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Services\ProductionService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\InventoryView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\MainMenuView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\OrderView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\ProductionView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Customer.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Enums.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Inventory.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Order.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\OrderItem.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Product.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ProductionOrder.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\AppController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\InventoryController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\OrderController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\ProductionController.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\CustomerRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\InventoryRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\OrderRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\ProductionRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Repositories\ProductRepository.h">
+      <Filter>Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\InventoryService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\OrderService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\ProductionService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\InventoryView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\MainMenuView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\OrderView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\ProductionView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

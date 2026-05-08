@@ -1,0 +1,22 @@
+# Visual Studio 빌드 산출물
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+x64/
+x86/
+Debug/
+Release/
+
+# Visual Studio 임시 파일
+.vs/
+*.user
+*.suo
+*.aps
+*.ncb
+*.opendb
+*.sdf
+ipch/
